@@ -1,0 +1,14 @@
+@font-face {
+  font-family: bri-600;
+  src: url("../fonts/BricolageGrotesque-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: bri-700;
+  src: url("../fonts/BricolageGrotesque-Bold.ttf");
+}
+
+@font-face {
+  font-family: mulish;
+  src: url("../fonts/Mulish-Medium.ttf");
+}

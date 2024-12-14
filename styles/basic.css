@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+}
+
+:root {
+  --main-color: #043a3a;
+  --secondary-color: #2fb95d;
+  --text-color: #525252;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  color: var(--text-color);
+  font-family: mulish;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--main-color);
+  font-family: bri-700;
+
+  span {
+    color: var(--secondary-color);
+  }
+}
+
+.btn {
+  padding: 1.6rem 4rem;
+  background-color: var(--main-color);
+  color: #fff;
+  font-family: bri-600;
+  font-size: 2.1rem;
+  /* line-height: 2.4rem; */
+  border-radius: 100px;
+  border: none;
+}
+
+.btn2 {
+  background-color: var(--secondary-color);
+}
